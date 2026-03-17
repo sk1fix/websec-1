@@ -1,0 +1,64 @@
+body {
+    background: #dcdcdc;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    width: 520px;
+    margin: 50px;
+    padding: 25px;
+    background: #a8e0a8;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px dashed red;
+    border-radius: 10px;
+    outline: none;
+    background: #c9f3c9;
+    color: red;
+}
+
+input {
+    width: 150px;
+}
+
+select {
+    width: 70px;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    font-size: 18px;
+    border: 2px dashed red;
+    border-radius: 10px;
+    background: #c9f3c9;
+    color: red;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #b0e6b0;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed red;
+    border-radius: 10px;
+    background: #c9f3c9;
+    font-size: 18px;
+    color: red;
+    min-height: 60px;
+}
